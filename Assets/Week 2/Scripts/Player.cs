@@ -23,8 +23,5 @@ public class Player : MonoBehaviour
     {
         rigidbody.AddForce(direction * Time.deltaTime * force);
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-    }
+
 }
